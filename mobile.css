@@ -1,0 +1,463 @@
+@media screen and (min-width:390px) and (max-width:430px) {
+  
+    .menu ul li a {
+        display: none;
+    }
+
+    .menu img {
+        position: relative;
+        top: 0px;
+        left: 10px;
+    }
+
+    .menu i {
+        position: relative;
+        top: -10px;
+        left: 230px;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .back_img img {
+        position: absolute;
+        top: 250px;
+        display: flex;
+        max-width: 430px;
+        height: 250px;
+    }
+
+    .m_title {
+        position: relative;
+        top: 490px;
+        width: 400px;
+        left: 10px;
+        color: #FFF;
+        font-family: "Azeret Mono";     
+        align-self: stretch;
+        font-size: 30px;    
+        font-style: normal;    
+        font-weight: 400;     
+        line-height: 36px; /* 112.5% */     
+        letter-spacing: -1.28px;   
+        text-transform: uppercase;
+        z-index: 2;
+    }
+
+    .back_img h1 {
+        display: none;
+    }
+
+    .back_img .more_btn a{
+        position: absolute;
+        font-family: "Azeret Mono";
+        top: 650px;
+        left: 10px;
+        width: 167px;
+        height: 48px;
+        font-size: 14px;
+        border-radius: 2px;
+        background: rgb(34, 33, 33);
+        color: #FFF;
+        line-height: 50px;
+        text-decoration: none;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;  
+        z-index: 2;
+    }
+
+    .back_img .more_btn img {
+        position: absolute;
+        top: 664px;
+        left: 140px;
+        width: 24px;
+        height: 24px;
+        z-index: 2;
+    }
+
+    .Rectangle .box_white{
+        position: absolute;
+        top: 800px;
+        left: 10px;
+        width: 32px;
+        height: 1px;
+        background: #fff;
+        z-index: 2;
+    }
+
+    .Rectangle .box_grey {
+        position: absolute;
+        top: 800px;
+        left: 40px;
+        width: 92px;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.30);
+        z-index: 2;
+    }
+
+    .Rectangle1 {
+        position: absolute;
+        top: 800px;
+        left: 80px;
+        width: 150px;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.30);
+        z-index: 2;
+    }
+    
+    .Rectangle2 {
+        display: none;
+      
+    }
+    
+    .Rectangle3 {
+        display: none;
+       
+    }
+
+    .Why_Rway {
+        position: absolute;
+        top: 850px;
+        width: 1920px;
+        height: 562px;
+        background-color: #fff;
+        z-index: 2;
+    }
+
+    .Why_Rway a {
+        position: relative;
+        top: 58px;
+        left: 10px;
+        color: rgba(0, 0, 0, 0.45);
+    }
+
+    .Why_Rway h1 {
+        position: relative;
+        top: 30px;
+        left: 10px;
+        color: rgba(0, 0, 0, 0.85);
+        font-family: "Azeret Mono";
+        font-size: 32px;
+    }
+    
+    .m_why_rway p {
+        position: absolute;
+        top: 980px;
+        left: 10px;
+        align-self: stretch;
+        color: rgba(0, 0, 0, 0.65);
+        font-family: "Open Sans";
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 130%; /* 41.6px */
+        letter-spacing: -0.72px;
+        z-index: 2;
+    }
+
+    .Why_Rway .more_btn {
+        position: relative;
+        top: 0px;
+        left: 10px;
+        min-width: 370px;
+        max-width: 398px;
+        height: 48px;
+        border-radius: 2px;
+        background: rgb(34, 33, 33);
+        color: #FFF;
+        line-height: 55px;
+        text-decoration: none;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;  
+        z-index: 2;
+    }
+    
+    .Why_Rway .more_btn a {
+        position: relative;
+        top: -5px;
+        left: 0px;
+        color: #FFF;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .Why_Rway .service_btn {
+        position: relative;
+        top: 60px;
+        left: -365px;
+        width: 370px;
+        height: 48px;
+        border-radius: 2px;
+        background: #fff;
+        color: #FFF;
+        line-height: 55px;
+        text-decoration: none;
+        letter-spacing: 0.32px;
+        text-transform: uppercase;  
+        z-index: 2;
+    }
+    
+    .Why_Rway .service_btn a {
+        position: relative;
+        top: -5px;
+        left: 0px;
+        color: #222;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .Explore {
+        position: absolute;
+        top: 1400px;
+        height: 1770px;
+    }
+
+    .Explore .line {
+        display: none;
+    }
+
+
+    .Explore h2 {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        color: rgba(0, 0, 0, 0.85);
+        text-align: start;
+        font-family: "Azeret Mono";
+        font-size: 30px; 
+        font-style: normal;    
+        font-weight: 400;     
+        line-height: 40px; /* 125% */       
+        letter-spacing: -0.96px;       
+        text-transform: uppercase;
+    }
+
+    .Explore .Image .Ex1 img {
+        position: absolute;
+        top: 220px;
+        left: 10px;
+        width: 370px;
+        height: 480px;
+        border-radius: 4px;
+        filter: brightness(95%);
+        box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
+    }
+    
+    .Ex1 h1 {
+       display: none;
+    }
+
+    .m_Ex1 h1 {
+        position: absolute;
+        top: 450px;
+        left: 20px;
+        color: #fff;
+        text-align: start;
+        font-family: "Azeret Mono";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 114.286% */
+        letter-spacing: -0.84px;
+        text-transform: uppercase;
+        z-index: 2;
+    }
+
+    .Explore .m_Ex1 p {
+        position: relative;
+        top: 530px;
+        left: 20px;
+        color: #FFF;
+        font-family: "Azeret Mono";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+        letter-spacing: -0.42px;
+        text-transform: uppercase;
+    }
+    
+    .Explore .Image .Ex1 p {
+       display: none;
+    }
+    
+    .Explore .Image .Ex1 .more_btn {
+        position: absolute;
+        top: 620px;
+        left: 20px;
+        width: 183px;
+        height: 48px;
+        border-radius: 2px;
+        border: 1px solid #222;
+        background: #fff;
+        line-height: 55px;
+        text-decoration: none;
+        letter-spacing: 0.32px;  
+    }
+    
+    .Explore .Image .Ex1 .more_btn a {
+        position: relative;
+        top: -5px;
+        left: 0px;
+        color: #222;
+        font-size: 16px;
+        text-decoration: none;
+        font-family: "Azeret Mono";
+    }
+    
+    .Explore .Image .Ex1 .more_btn img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .Explore .Image .Ex2 img {
+        position: absolute;
+        top: 720px;
+        left: 10px;
+        width: 370px;
+        height: 480px;
+        border-radius: 4px;
+        filter: brightness(80%);
+        box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
+    }
+    
+    .Explore .Image .Ex2 h1 {
+        position: absolute;
+        top: 950px;
+        left: 20px;
+        text-align: start;
+        color: #FFF;
+        font-family: "Azeret Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 114.286% */
+        letter-spacing: -0.84px;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    
+    .Explore .Image .Ex2 p {
+        position: absolute;
+        top: 1030px;
+        left: 20px;
+        color: #FFF;
+        text-align: start;
+        font-family: "Azeret Mono";
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px; /* 142.857% */
+        letter-spacing: -0.42px;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+    
+    .Explore .Image .Ex2 .more_btn {
+        position: absolute;
+        top: 1130px;
+        left: 20px;
+        width: 183px;
+        height: 48px;
+        border-radius: 2px;
+        border: 1px solid #222;
+        background: #fff;
+        line-height: 55px;
+        text-decoration: none;
+        letter-spacing: 0.32px;  
+    }
+    
+    .Explore .Image .Ex2 .more_btn a {
+        position: relative;
+        top: -5px;
+        left: 0px;
+        color: #222;
+        font-size: 16px;
+        text-decoration: none;
+        font-family: "Azeret Mono";
+    }
+    
+    .Explore .Image .Ex2 .more_btn img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 24px;
+        height: 24px;
+        
+    }
+
+    .Explore .Image .Ex3 img{
+        position: absolute;
+        top: 1230px;
+        left: 10px;
+        width: 370px;
+        height: 480px;
+        border-radius: 4px;
+        filter: brightness(80%);
+        box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
+    }
+    
+    .Explore .Image .Ex3 h1 {
+        position: absolute;
+        top: 1450px;
+        left: 20px;
+        text-align: start;
+        color: #FFF;
+        font-family: "Azeret Mono";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 114.286% */
+        letter-spacing: -0.84px;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    
+    .Explore .Image .Ex3 p {
+        position: absolute;
+        top: 1540px;
+        left: 20px;
+        color: #FFF;
+        text-align: start;
+        font-family: "Azeret Mono";
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 23px; /* 142.857% */
+        letter-spacing: -0.42px;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+    
+    .Explore .Image .Ex3 .more_btn {
+        position: absolute;
+        top: 1630px;
+        left: 20px;
+        width: 183px;
+        height: 48px;
+        border-radius: 2px;
+        border: 1px solid #222;
+        background: #fff;
+        line-height: 55px;
+        text-decoration: none;
+        letter-spacing: 0.32px;  
+    }
+    
+    .Explore .Image .Ex3 .more_btn a {
+        position: relative;
+        top: -5px;
+        left: 0px;
+        color: #222;
+        font-size: 16px;
+        text-decoration: none;
+        font-family: "Azeret Mono";
+    }
+    
+    .Explore .Image .Ex3 .more_btn img {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 24px;
+        height: 24px;
+        
+    }
+}
