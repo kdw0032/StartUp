@@ -1,4 +1,4 @@
-@media screen and (min-width:390px) and (max-width:430px) {
+@media screen and (width:390px) {
   
     .menu ul li a {
         display: none;
