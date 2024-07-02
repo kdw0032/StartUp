@@ -1,6 +1,5 @@
 /*Iphone12pro 13pro 14 15 사이즈*/
-@media screen and (max-width:390px) {
-  
+@media screen and  (max-width:600px) {
     .menu ul li a {
         display: none;
     }
@@ -119,6 +118,7 @@
     .Why_Rway {
         position: absolute;
         top: 850px;
+        left: 0px;
         width: 1920px;
         height: 562px;
         background-color: #fff;
@@ -138,7 +138,7 @@
         left: 10px;
         color: rgba(0, 0, 0, 0.85);
         font-family: "Azeret Mono";
-        font-size: 32px;
+        font-size: 10vw;
     }
     
     .m_why_rway p {
@@ -148,7 +148,7 @@
         align-self: stretch;
         color: rgba(0, 0, 0, 0.65);
         font-family: "Open Sans";
-        font-size: 23px;
+        font-size: 6vw;
         font-style: normal;
         font-weight: 300;
         line-height: 130%; /* 41.6px */
@@ -160,8 +160,7 @@
         position: relative;
         top: 0px;
         left: 10px;
-        min-width: 370px;
-        max-width: 398px;
+        width: 90vw;
         height: 48px;
         border-radius: 2px;
         background: rgb(34, 33, 33);
@@ -185,8 +184,8 @@
     .Why_Rway .service_btn {
         position: relative;
         top: 60px;
-        left: -365px;
-        width: 370px;
+        left: -89vw;
+        width: 90vw;
         height: 48px;
         border-radius: 2px;
         background: #fff;
@@ -210,7 +209,10 @@
     .Explore {
         position: absolute;
         top: 1400px;
-        height: 1770px;
+        left: 0px;
+        width: 100%;
+        height: 3520px;
+        background-color: #efefef;
     }
 
     .Explore .line {
@@ -220,7 +222,7 @@
 
     .Explore h2 {
         position: absolute;
-        top: 50px;
+        top: 10px;
         left: 10px;
         color: rgba(0, 0, 0, 0.85);
         text-align: start;
@@ -235,10 +237,10 @@
 
     .Explore .Image .Ex1 img {
         position: absolute;
-        top: 220px;
+        top: 200px;
         left: 10px;
-        width: 370px;
-        height: 480px;
+        width: 95vw;
+        height: auto;
         border-radius: 4px;
         filter: brightness(95%);
         box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
@@ -270,7 +272,7 @@
         left: 20px;
         color: #FFF;
         font-family: "Azeret Mono";
-        font-size: 14px;
+        font-size: 3.5vw;
         font-style: normal;
         font-weight: 400;
         line-height: 20px; /* 142.857% */
@@ -284,7 +286,7 @@
     
     .Explore .Image .Ex1 .more_btn {
         position: absolute;
-        top: 620px;
+        top: 605px;
         left: 20px;
         width: 183px;
         height: 48px;
@@ -316,10 +318,10 @@
 
     .Explore .Image .Ex2 img {
         position: absolute;
-        top: 720px;
+        top: 710px;
         left: 10px;
-        width: 370px;
-        height: 480px;
+        width: 95vw;
+        height: auto;
         border-radius: 4px;
         filter: brightness(80%);
         box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
@@ -347,7 +349,7 @@
         color: #FFF;
         text-align: start;
         font-family: "Azeret Mono";
-        font-size: 13px;
+        font-size: 3.3vw;
         font-weight: 400;
         line-height: 23px; /* 142.857% */
         letter-spacing: -0.42px;
@@ -357,9 +359,9 @@
     
     .Explore .Image .Ex2 .more_btn {
         position: absolute;
-        top: 1130px;
+        top: 1110px;
         left: 20px;
-        width: 183px;
+        width: 50vw;
         height: 48px;
         border-radius: 2px;
         border: 1px solid #222;
@@ -392,8 +394,8 @@
         position: absolute;
         top: 1230px;
         left: 10px;
-        width: 370px;
-        height: 480px;
+        width: 95vw;
+        height: auto;
         border-radius: 4px;
         filter: brightness(80%);
         box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.08);
@@ -462,22 +464,19 @@
         
     }
 
-        /*Page-4 시작*/
+    /*Page-4 시작*/
     .Get-more_back {
         position: absolute;
-        top: 2900px;
+        top: 2000px;
         left: 0px;
-        min-width: 320px;
-        max-width: 390px;
-        height: 180%;
-        background: #EFEFEF;
+        max-width: 100%;
     }
 
     .getmore_header {
         position: relative;
-        top: 300px;
+        top: 1200px;
         left: 10px;
-        width: 370px;
+        width: 95vw;
         height: 128px;
         border-top-left-radius: 5px;
         border-top-right-radius: 5px;
@@ -534,9 +533,9 @@
 
     .get_more_main {
         position: relative;
-        top: 280px;
+        top: 1180px;
         left: 10px;
-        width: 370px;
+        width: 95vw;
         height: 320px;
         background-color: #fff;
         z-index: 2;
@@ -567,7 +566,7 @@
     .get_more_main .m_car {
         position: relative;
         top: 50px;
-        width: 370px;
+        width: 95vw;
         height: 300px;
     } 
 
@@ -575,18 +574,18 @@
         position: relative;
         top: 390px;
         left: 10px;
-        width: 380px;
-        height: 912px;
+        width: 95vw;
+        height: auto;
         background: rgba(0, 0, 0, 0.04);
     }
 
     .get_more_main2 .box {
         position: relative;
-        top: -50px;
-        left: -30px;
+        top: 850px;
+        left: -32px;
         display: inline-block;
         margin: 3px;
-        width: 346px;
+        width: 90vw;
         height: 184px;
         background-color: #fff;
         z-index: 2;
@@ -612,7 +611,7 @@
         left: 33px;
         color: rgba(0, 0, 0, 0.85);
         font-family: "Azeret Mono";
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: 20px; /* 142.857% */
@@ -626,19 +625,18 @@
 
     .m_contact_us {
         position: absolute;
-        top: 4419px;
+        top: 4329px;
         left: 0px;
-        width: 390px;
-        height: 505px;
-        background: #efefef;
+        width: 100%;
+        height: 75vh;
         z-index: 2;
     }
 
     .m_contact_us_back {
         position: relative;
-        top: -100px;
+        top: 0px;
         left: 20px;
-        width: 350px;
+        width: 90vw;
         height: 440px;
         background-color: #fff;
     }
@@ -672,7 +670,7 @@
         position: absolute;
         top: 110px;
         left: 5px;
-        width: 336px;
+        width: 85vw;
         height: 56px;
         background-color: #3E38FA;
         line-height: 70px;
@@ -704,7 +702,7 @@
         left: 10px;
         color: rgba(0, 0, 0, 0.65);
         font-family: "Open Sans";
-        font-size: 18px;
+        font-size: 4.8vw;
         font-style: normal;
         font-weight: 400;
         line-height: 28px; /* 140% */
@@ -714,7 +712,7 @@
     .mobile_platform {
         position: absolute;
         top: 4830px;
-        width: 390px;
+        width: 100%;
         height: 1652px;
         background: #1C1C1E;
         z-index: 2;
@@ -724,7 +722,7 @@
         position: relative;
         top: 50px;
         left: 20px;
-        width: 350px;
+        width: 90vw;
         height: 152px;
         border-radius: 5px;
         border-top: 2px solid rgba(255, 255, 255, 0.08);/* 상단 경계선을 색상 설정 */
@@ -796,8 +794,8 @@
         position: relative;
         top: 28px;
         left: 20px;
-        width: 350px;
-        height: 978px;
+        width: 90vw;
+        height: auto;
         border-left: 2px solid  rgba(255, 255, 255, 0.08);
         border-right: 2px solid  rgba(255, 255, 255, 0.08);
         border-bottom: 2px solid  rgba(255, 255, 255, 0.08);
@@ -820,7 +818,7 @@
     .one_platform_desc img {
         position: relative;
         top: 70px;
-        width: 350px;
+        width: 90vw;
     }
 
     .description .box {
@@ -829,8 +827,8 @@
         left: -33px;
         display: inline-block;
         margin: 3px;
-        width: 330px;
-        height: 184px;
+        width: 85vw;
+        height: 134px;
         background: #202023;
         z-index: 2;
     }
@@ -862,21 +860,247 @@
         letter-spacing: -0.42px;
         text-transform: uppercase
     }
+
+    .m_contact_us2 {
+        position: absolute;
+        top: 5859px;
+        left: 0px;
+        width: 100%;
+        height: 75vh;
+        z-index: 2;
+    }
+
+    .m_contact_us_back2 {
+        position: relative;
+        top: 0px;
+        left: 20px;
+        width: 90vw;
+        height: 360px;
+        border: 2px solid rgba(255, 255, 255, 0.08);
+        background-color: #1C1C1E;
+    }
+
+    .m_contact_us2 span {
+        position: relative;
+        top: 20px;
+        left: 10px;
+        color: rgba(255, 255, 255, 0.64);
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 133.333% */
+        letter-spacing: -0.54px;
+    }
+
+    .m_contact_us2 h1 {
+        position: relative;
+        left: 10px;
+        color: rgba(255, 255, 255, 0.85);
+        font-family: "Open Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px; /* 112.5% */
+        letter-spacing: -0.96px;
+    }
+
+    .m_contact_us2 .m_Try_now_btn2 {
+        position: absolute;
+        top: 110px;
+        left: 15px;
+        width: 76vw;
+        height: 56px;
+        background-color: #3E38FA;
+        line-height: 70px;
+        text-decoration: none;
+        letter-spacing: 0.32px;  
+    }
+    
+    .m_contact_us2 .m_Try_now_btn2 a {
+        position: relative;
+        top: -8px;
+        left: 100px;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        text-decoration: none;
+        font-family: "Azeret Mono";
+    }
+    
+    .m_contact_us2 .m_Try_now_btn2 img {
+        position: relative;
+        top: -1px;
+        left: 100px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .m_contact_us2 p {
+        position: relative;
+        top: 80px;
+        left: 15px;
+        color: rgba(255, 255, 255, 0.65);
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 140% */
+        letter-spacing: -0.6px;
+    }
+
+    /*Page-6 시작*/
+    .news_room {
+        position: absolute;
+        top: 6300px;
+        left: 0px;
+        width: 100%;
+        height: 2524px;
+        background: #1C1C1E;
+        z-index: 2;
+    }
+
+    .news_room .news_header {
+        position: relative;
+        top: 0px;
+        left: 20px;
+        width: 90vw;
+        height: 80px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .m_newsbox .item {
+        position: relative;
+        width: 90vw;
+        height: 368px;
+        background-color: rgba(255, 255, 255, 0.04);
+        left: 0px;
+        margin: 20px;
+    }
+
+    .item img {
+        width: 90vw;
+        height: 208px;
+    }
+
+    .item h1 {
+        color: #fff;
+        font-family: "Azeret Mono";
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 120% */
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+
+    .item p {
+        color: rgba(255, 255, 255, 0.45);
+        font-family: "Azeret Mono";
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+        letter-spacing: -0.48px;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+
+    .news_room .more_btn2{
+        position: relative;
+        top: 0px;
+        left: 20px;
+        width: 90vw;
+        z-index: 2;
+    }
+
+    .news_room .more_btn2 a {
+        position: relative;
+        left: 115px;
+    }
+
+    .news_room .more_btn2 img {
+        position: relative;
+        left: 110px;
+    }
+    .news_box {
+        display: none;    
+       
+    } /*모바일 용 news_box 생성으로 인한 
+        display:none 처리 24/06/30*/
+
     .rway_studios {
         display: none;
+    } /*반응형 사이즈 디자인에 없으므로 display:none 처리*/
+    /*Page-6 끝*/
+
+
+    /*footer 시작*/
+    .footer {
+        position: absolute;
+        top: 8820px;
+        width: 100vw;
+        height: 1056px;
+    }
+    
+    .footer img {
+        position: relative;
+        top: 50px;
+        left: 20px;
+        width: 109.029px;
+        height: 32.05px;
     }
 
-    .news_room {
-        display: none;
+    .footer .footer_01 p {
+        position: relative;
+        top: 120px;
+        left: 20px;
+        font-size: 12px;
     }
 
-    @media screen and (width:1920px) {
-        .m_contact_us {
-            display: none;
-        }
-
-        .mobile_platform {
-            display: none;
-        }
+    .footer .footer_01 a {
+        position: relative;
+        top: 120px;
+        left: -20px;
+        font-size: 12px;
     }
+
+    .footer .footer_02 p {
+        position: relative;
+        top: 150px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    .footer .footer_02 a {
+        position: relative;
+        top: 150px;
+        left: -20px;
+        font-size: 12px;
+    }
+
+
+    .footer .footer_03 p {
+        position: relative;
+        top: 180px;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    .footer .footer_03 a {
+        position: relative;
+        top: 180px;
+        left: -20px;
+        font-size: 12px;
+    }
+
+    .footer .copyright p {
+        position: relative;
+        top: 180px;
+        left: 10px;
+        font-size: 12px;
+    }
+
+
 }

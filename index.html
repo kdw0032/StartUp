@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>StartUp</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
+    <div class="container">
     <section class="banner">
         <div class="menu">
                 <img src="./img/Icon.svg" alt="logo">
@@ -25,16 +27,16 @@
         </div>
 
         <div class="back_img">
-            <img src="./img/banner.png" alt="">
+            <img src="./img/banner.png" alt="작업장 이미지">
             <h1>Advancing creativity with<br> 
-                artificial intelligence.</h1>
+                artificial intelligence.</h1><!--메인 타이틀 제목-->
 
                 <h2 class="m_title">Advancing creativity<br> with 
-                    artificial intelligence.</h2>
+                    artificial intelligence.</h2><!--반응형 메인 타이틀-->
                 <button class="more_btn">
                     <a href="">LEARN MORE</a>
-                    <img src="./img/right-arrow2.png" alt="">
-                </button>
+                    <img src="./img/right-arrow2.png" alt="방향 이미지">
+                </button> //버튼
         </div>
 
         <div class="container">
@@ -303,8 +305,28 @@
             </div>
         </section>
 
+        <section class="contact_us2">
+            <div class="m_contact_us2">
+                <div class="m_contact_us_back2">
+                    <span>Get in touch</span>
+                <h1>Contact us</h1>
+    
+                <div class="m_Try_now_btn2">
+                    <a href="">TRY NOW</a>
+                    <img src="./img/icon.png" alt="">
+                </div>
+    
+                <p>"Solving complex problems across all<br>
+                industry.it really means that a<br>
+                specific application,is not working,<br>
+                Rway allows us to analyze the<br>
+                subscriber's traffic and solve the<br>
+                issue"</p>
+                </div>    
+        </section>
+        
         <section class="page-5">
-            <div class="rway_studios">
+            <div class="rway_studios"> <!--반응형 사이즈에선 display:none 처리 함-->
                 <h1>rway studios</h1>
                 <h2>for anyone with a story to<br>
                 tell.</h2>
@@ -329,9 +351,8 @@
                         <img src="./img/right-arrow2.png" alt="">
                     </div>
                 </div>
+                
                 <div class="news_box">
-                    <ul>
-                        <li>
                             <div class="box">
                                 <img src="./img/news1.png" alt="1번째 뉴스 이미지">
                                 <h1>rway in france:<br>
@@ -378,8 +399,52 @@
 
                                 <p>news apr 12 ,2024</p>
                             </div>
-                        </li>
-                    </ul>
+                </div>
+                <!--데스크탑 사이즈 newsbox-->
+
+                <!--모바일 반응형 news box-->
+                <div class="m_newsbox">
+                    <div class="item">
+                        <img src="./img/news1.png" alt="1번째 뉴스 이미지">
+                        <h1>rway in france: consolidation<br>
+                        of its expansion in 2024 </h1>
+            
+                        <p>news apr 12 ,2024</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/news2.png" alt="2번째 뉴스 이미지">
+                        <h1>rway in uk:
+                        consolidation of <br>
+                        its expansion in 2024.</h1>
+            
+                        <p>news apr 12 ,2024</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/news3.png" alt="3번째 뉴스 이미지">
+                        <h1>mitigating streotypical<br>
+                        biases in text to image...</h1>
+            
+                        <p>news apr 12 ,2024</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/news4.png" alt="4번째 뉴스 이미지">
+                        <h1>arrival receives notification<br> 
+                        of trading suspension...</h1>
+            
+                        <p>news apr 12 ,2024</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/news5.png" alt="5번째 뉴스 이미지">
+                        <h1>high performance computing</h1>
+            
+                        <p>news apr 12 ,2024</p>
+                    </div>
+                    <div class="item">
+                        <img src="./img/news6.png" alt="6번째 뉴스 이미지">
+                        <h1>developed for developers</h1>
+            
+                        <p>news apr 12 ,2024</p>
+                    </div>
                 </div>
 
                 <div class="more_btn2">
@@ -440,6 +505,7 @@
                 </div>
             </div>
         </footer>
+    </div>
 
         <script src="https://kit.fontawesome.com/672302a429.js" crossorigin="anonymous"></script>
 </body>

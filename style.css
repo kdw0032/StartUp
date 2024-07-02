@@ -1,6 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=DM+Serif+Text&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Noto+Serif+KR&family=Space+Grotesk:wght@300..700&display=swap');
 
+@media screen and (min-width:1024px) {
+    .get_more_main h2 {
+        display: none;
+    }
 
+    .Explore h2 {
+        display: none;
+    }
+
+    .m_Ex1  {
+        display: none;
+    }
+
+    .m_contact_us {
+        display: none;
+    }
+
+    .mobile_platform {
+        display: none;
+    }
+
+    .m_car {
+        display: none;
+    }
+
+    .m_newsbox {
+        display: none;
+    }
+}
 body {
     padding: 0;
     margin: 0;
@@ -139,7 +167,7 @@ body {
 
 .Why_Rway {
     position: absolute;
-    top: 1080px;
+    top: 1100px;
     width: 1920px;
     height: 562px;
     background-color: #fff;
@@ -690,6 +718,7 @@ body {
     text-transform: uppercase;  
 }
 
+
  .get_more_main img {
     position: relative;
     top: 320px;
@@ -698,13 +727,14 @@ body {
     height: 400px;    
 }
 
+
 .get_more_main2 {
     position: relative;
     top: 385px;
     left: 120px;
     width: 1620px;
     height: 312px;
-    background: rgba(0, 0, 0, 0.04);
+    background: #EFEFEF;
 }
 
 .get_more_main2 ul > li {
@@ -969,14 +999,11 @@ body {
     top: 30px;
 }
 
-.news_room .news_box ul > li {
-    list-style: none;
-}
 
 .news_room .news_box .box {
     position: relative;
     top: 10px;
-    left: 0px;
+    left: 40px;
     display: inline-block;
     width: 878px;
     height: 208px;
